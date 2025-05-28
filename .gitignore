@@ -1,0 +1,12 @@
+# Terraform çalışma dosyaları
+*.tfstate
+*.tfstate.backup
+.terraform/
+.terraform.lock.hcl
+
+# Terraform değişken dosyaları (isteğe bağlı olarak versiyon kontrolüne alınmaz)
+terraform.tfvars
+
+# MacOS ve Linux sistem dosyaları
+.DS_Store
+*.swp
