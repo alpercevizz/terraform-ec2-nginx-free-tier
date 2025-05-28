@@ -28,12 +28,12 @@ This project creates a Free Tier eligible EC2 instance on AWS, installs NGINX, a
    ```bash
    key_name = "your-ec2-keypair-name"
 
-4. ** Plan and apply**
+4. **Plan and apply**
    ```bash
    terraform plan
    terraform apply
 
-5. ** Access NGINX**
+5. **Access NGINX**
    ```bash
    http://<EC2-PUBLIC-IP>:8080
 
