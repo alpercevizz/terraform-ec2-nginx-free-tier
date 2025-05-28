@@ -37,14 +37,16 @@ This project creates a Free Tier eligible EC2 instance on AWS, installs NGINX, a
    ```bash
    http://<EC2-PUBLIC-IP>:8080
 
-🧾 Files
-File			Description
-main.tf			Main resource definitions
-variables.tf		Input variables
-outputs.tf		Output public IP
-user_data.sh		Script to install NGINX and start it on port 8080
-.gitignore		Ignore Terraform working files
-terraform.tfvars	(Optional) Input your key_name here
+### 🧾 Files
+
+| File              | Description                                         |
+|-------------------|-----------------------------------------------------|
+| `main.tf`         | Main resource definitions                          |
+| `variables.tf`    | Input variables                                     |
+| `outputs.tf`      | Output public IP                                    |
+| `user_data.sh`    | Script to install NGINX and start it on port 8080  |
+| `.gitignore`      | Ignore Terraform working files                      |
+| `terraform.tfvars`| (Optional) Input your `key_name` here               |
 
 📋 Notes
 This is Free Tier eligible if you stay within limits (1 vCPU, 1 GB RAM).
@@ -55,4 +57,4 @@ You need to create an EC2 key pair in AWS Console and set key_name.
 
 ## Demo
 
-![nginx-running](docs/nginx-running.png)
+![nginx-running](/nginx-running.png)
