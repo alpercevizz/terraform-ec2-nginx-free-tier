@@ -16,7 +16,7 @@ This project creates a Free Tier eligible EC2 instance on AWS, installs NGINX, a
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/terraform-ec2-nginx.git
+   git clone https://github.com/alpercevizz/terraform-ec2-nginx-free-tier.git
    cd terraform-ec2-nginx
 
 2. **Initialize Terraform**
